@@ -1,0 +1,6 @@
+INSERT INTO Sports_team ( Players_id,Players_name,Players_position,Joinng_date,Salary )
+	VALUES ('123', 'Rohit Sharma', 'Batsman', '2007-08-25', '280000.00'),
+		('134', 'Hardik Pandya', 'All Rounder', '2015-05-22', '105000.00'),
+		('1984', 'Virat Kohli', 'Batsman', '2005-05-12', '150000.00'),
+		('1987', 'Shreyash Iyer', 'Batsman', '2005-05-12', '140000.00'),
+		('1986', 'Axar Patel', 'All Rounder', '2006-05-132', '115000.00');
