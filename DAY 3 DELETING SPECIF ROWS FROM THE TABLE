@@ -1,0 +1,16 @@
+SELECT * FROM Sports_team;
+
+
+-- DELETING SPECIFIC ROW
+DELETE FROM Sports_team
+WHERE Positiont='Batsman';
+
+-- DELETING SPECIFIC COLUMN
+ALTER TABLE Sports_team
+DROP COLUMN Player_name;
+
+-- DELETE TABLE
+DROP TABLE IF EXISTS Sports_team;
+
+-- DELETING DATABASE
+DROP DATABASE Cricket;
