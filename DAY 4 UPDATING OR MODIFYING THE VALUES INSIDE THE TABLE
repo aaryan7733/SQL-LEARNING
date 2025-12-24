@@ -1,0 +1,27 @@
+SELECT * FROM Sports_team;
+
+-- UPDATING AGE 
+UPDATE Sports_team
+SET age=28
+WHERE Players_name='Rohit sharma';
+
+
+
+-- IN ASCENDING FORMAT OR SEQUENCE OF PLAYER ID 
+SELECT * FROM Sports_team ORDER BY Players_id ASC;
+
+-- UPDATING CITY WITH ACCORDANCE WITH THEIR AGE
+UPDATE Sports_team
+SET city='Chennai'
+WHERE age>=30;
+
+-- UPDATING AGE AND CITY BOTH WHERE Players_name is 'ROHIT SHARMA'
+UPDATE Sports_team
+SET age=31, city='kolkat1a'
+WHERE username='Rohit Sharma';
+
+-- UPDATING PLAYERS AGE INCREASED BY 1 YEAR WHERE PLAYERS POSITIONS ARE BATSMAN 
+UPDATE Sports_team
+SET age=age+1
+WHERE position = 'Batsman';
+
