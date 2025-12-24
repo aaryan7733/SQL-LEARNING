@@ -1,2 +1,10 @@
-# SQL-LEARNING
-SQL Practice queries from beginner to intermediate 
+CREATE TABLE Sports_team(
+	Players_id SERIAL PRIMARY KEY,
+	Players_name VARCHAR(100) NOTNULL,
+	Players_position VARCHAR(50) NOTNULL,
+	Joinng_date DATE,
+	Salary NUMERIC (10,2)
+
+			);
+
+
